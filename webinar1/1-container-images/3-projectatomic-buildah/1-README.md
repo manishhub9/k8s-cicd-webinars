@@ -36,6 +36,7 @@ Following instructions are for Ubuntu 16.04. If you are using different OS then 
     cd ./src/github.com/projectatomic/buildah ; \
     PATH=/usr/lib/go-1.8/bin:$PATH make runc all TAGS="apparmor seccomp" ; \
     make install
+ apt install buildah -y
 ```
 
 - Configure the `/etc/containers/registries.conf`.
